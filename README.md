@@ -1,30 +1,62 @@
-# React + TypeScript + Vite
+# React + Typescript + Spring To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple to-do list application built using React for the frontend and Spring Boot for the backend.
 
-Currently, two official plugins are available:
+## Backend Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the backend repository:
 
-## Expanding the ESLint configuration
+    ```
+    git clone https://github.com/bolatdias/to-do-list
+    ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Navigate into the backend directory:
 
-- Configure the top-level `parserOptions` property like this:
+    ```
+    cd to-do-list/backend
+    ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Run the backend:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+    ```
+    ./mvnw spring-boot:run
+    ```
+
+## Frontend Setup
+
+1. Clone the frontend repository:
+
+    ```
+    git clone
+    ```
+
+2. Navigate into the frontend directory:
+
+    ```
+    cd [frontend directory]
+    ```
+
+3. Install dependencies:
+
+    ```
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```
+    npm run dev
+    ```
+
+ Interface screenshots :
+ Login
+ ![image](https://github.com/Yerbo71/to-do-front/assets/115892544/f7a7046b-7fdf-482c-ab37-b6074e5a57b5)
+ 
+ Registration
+![image](https://github.com/Yerbo71/to-do-front/assets/115892544/1c8c0e4a-4ace-47b8-9792-2d22bc121e45)
+ 
+ Main Page
+![image](https://github.com/Yerbo71/to-do-front/assets/115892544/d052d2da-41e6-48d0-acea-2bcb323fc41f)
+
+ New todo
+![image](https://github.com/Yerbo71/to-do-front/assets/115892544/4785d8f2-f225-46ec-b219-4ab6e79eef7e)
